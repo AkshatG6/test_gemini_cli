@@ -129,7 +129,7 @@ jobs:
             - Assign all applicable labels based on the issue content
             - Reference all shell variables as "${VAR}" (with quotes and braces)
             - Output only valid JSON. Nothing else.
-            - Do not include any explanation or additional text, just the JSON
+            - Do not include any explanation or additional text or raw labels, just the JSON
 
       - name: 'Apply Labels to Issue'
         if: |-
