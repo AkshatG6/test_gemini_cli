@@ -1,3 +1,9 @@
+# gemini-cli settings
+.gemini/
+
+# GitHub App credentials
+gha-creds-*.json
+
 # MacOS
 .DS_Store
 
@@ -23,9 +29,3 @@ Podfile.lock
 # Swift Build
 .build/
 Package.resolved
-
-# gemini-cli settings
-.gemini/
-
-# GitHub App credentials
-gha-creds-*.json
